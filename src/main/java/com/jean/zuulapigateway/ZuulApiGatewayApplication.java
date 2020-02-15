@@ -1,13 +1,13 @@
-package com.jean.zullapigateway;
+package com.jean.zuulapigateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZullApiGatewayApplication {
+public class ZuulApiGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ZullApiGatewayApplication.class, args);
+        SpringApplication.run(ZuulApiGatewayApplication.class, args);
     }
 
 }
