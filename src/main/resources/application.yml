@@ -1,0 +1,26 @@
+api:
+  h2console:
+    url:
+      path: /users-ws/h2-console/**
+  login:
+    url:
+      path: /users-ws/users/login
+  registration:
+    url:
+      path: /users-ws/users
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka
+server:
+  port: 8011
+spring:
+  application:
+    name: zuul
+
+auth:
+  token:
+    header:
+      name: Authorization
+      prefix: Bearer
+    secret: af5s54g5sf4g564fd56g4sdafsldjifksdf454
