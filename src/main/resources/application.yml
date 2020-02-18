@@ -17,10 +17,14 @@ server:
 spring:
   application:
     name: zuul
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 auth:
   token:
     header:
       name: Authorization
       prefix: Bearer
-    secret: af5s54g5sf4g564fd56g4sdafsldjifksdf454
