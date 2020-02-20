@@ -8,6 +8,11 @@ api:
   registration:
     url:
       path: /users-ws/users
+
+  zuul:
+    actuator:
+      url:
+        path: /actuator/*
 eureka:
   client:
     service-url:
