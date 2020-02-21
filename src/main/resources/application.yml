@@ -8,6 +8,10 @@ api:
   registration:
     url:
       path: /users-ws/users
+  users:
+    actuator:
+      url:
+        path: /users-ws/actuator/*
 
   zuul:
     actuator:
